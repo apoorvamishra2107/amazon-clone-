@@ -1,0 +1,144 @@
+<html>
+
+<head>
+    <title>Facebook Clone</title>
+    <style>
+        .box1 {
+            width: 60%;
+            height: 10%;
+            background-color: rgb(0, 60, 255);
+            float: left
+        }
+
+        .logo {
+            font-size: 40px;
+            font-weight: 700;
+            color: antiquewhite;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .box2 {
+            width: 15%;
+            height: 10%;
+            background-color: rgb(0, 60, 255);
+            float: left;
+            font-weight: 400;
+
+
+        }
+
+        .box3 {
+            width: 20%;
+            height: 10%;
+            background-color: rgb(0, 60, 255);
+            float: left;
+        }
+
+        .box4 {
+            width: 5%;
+            height: 10%;
+            background-color: rgb(0, 60, 255);
+            float: left;
+        }
+
+        
+
+        .box5 {
+            width: 60%;
+            height: 90%;
+            background-color: #BFC1C2;
+            float: left;
+
+        }
+
+        .box6 {
+            width: 40%;
+            height: 90%;
+            background-color: #BFC1C2;
+            float: left;
+        }
+
+        .label-grp {
+            color: white;
+        }
+
+        .box4 input{
+            color: white;
+            background-color: rgb(0, 89, 255);
+            
+        }
+
+        .inpGroup1{
+            width: 48%;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid grey;
+        }
+        .inpGroup2{
+            width: 50%;
+            height: 35px;
+            border-radius: 7px;
+            border: 1px solid grey;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box1">
+        <h1 class="logo">facebook</h1>
+    </div>
+    <div class="box2">
+        <label class="label-grp" for="email">Email</label><br>
+        <input id="email" type="email">
+
+    </div>
+    <div class="box3">
+        <label class="label-grp" for="password">Password</label><br>
+        <input id="password" type="password"><br>
+        <span class="label-grp">Forgot Password ?</span>
+    </div>
+    <div class="box4">
+        <input type="button" value="Log In">
+    </div>
+
+    <div class="box5"></div>
+    <div class="box6">
+        <h1>Sign Up</h1>
+        <h2><i>It's free and always will be.....</i></h2><br>
+
+
+        <input class="inpGroup1" id="first_name" type="text" placeholder="First Name">
+
+        <input class="inpGroup1" id="last_name" type="text" placeholder="Last Name"><br><br>
+
+        <input class="inpGroup2" id="email" type="email" placeholder="Email"><br><br>
+
+        <input class="inpGroup2" id="password" type="password" placeholder="New Password"><br><br>
+
+        <label for="birthday"><h3>Birthday</h3></label>
+        <input id="birthday" type="date"><br><br>
+
+        
+        <label>Female</label><input type="radio" name="gender">
+        <label>Male</label><input type="radio" name="gender">
+        <label>Other</label><input type="radio" name="gender"><br>
+        
+        <p>clicking Create Account , you agree to our<i style="color:rgb(17, 0, 255);">Terms</i> and that you have read
+            our <i style="color:rgb(17, 0, 255);">Data Policy</i>,including our<i style="color:rgb(17, 0, 255);">Cookies Use.</i>You may receive SMS notifications from Facebook<br>
+        and can opt out any time.</p><br>
+            
+        <button style="width: 200px; height: 50px; border-radius: 6px; background-color: green;"><b><b>Create
+                    Account</b></b></button>
+        <hr>
+        <p><i style="color:rgb(17, 0, 255);">Create a page</i> for a celebrity , band or<i
+                style="color:rgb(17, 0, 255);"> business.</i></p>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
